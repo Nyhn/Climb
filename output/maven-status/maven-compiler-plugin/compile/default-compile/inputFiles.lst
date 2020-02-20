@@ -1,6 +1,14 @@
 D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\Form.java
 D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\Register.java
-D:\programing\OpenClassroom\Climb\src\main\java\com\oc\dao\PersonDAOImpl.java
-D:\programing\OpenClassroom\Climb\src\main\java\com\oc\model\Person.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\LogInCheck.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\ClimbingSite.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\LogIn.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\Catalog.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\Homepage.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\dao\UserDao.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets\RegisterCheck.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\model\User.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\service\RegistrationForm.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\dao\UserDaoImpl.java
 D:\programing\OpenClassroom\Climb\src\main\java\com\oc\main\Main.java
-D:\programing\OpenClassroom\Climb\src\main\java\com\oc\dao\PersonDAO.java
+D:\programing\OpenClassroom\Climb\src\main\java\com\oc\service\ConnectionForm.java

@@ -1,7 +1,7 @@
 package com.oc.main;
 
-import com.oc.dao.PersonDAO;
-import com.oc.model.Person;
+import com.oc.dao.UserDao;
+import com.oc.model.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -11,19 +11,27 @@ public class Main {
 
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 
-            PersonDAO personDAO = context.getBean(PersonDAO.class);
+            UserDao userDao = context.getBean(UserDao.class);
 
-            Person person = new Person();
-            person.setName("Gaga"); person.setCountry("France");
+            User user = new User();
+            user.setName("Name");
+            user.setFirstname("Firstname");
+            user.setAddress("Adress");
+            user.setMail("Mail");
+            user.setPassword("Password");
+            user.setPhone(0100000000);
+            user.setPseudo("Pseudo");
+            user.setSex(true);
+            user.setZip(00000);
 
-            personDAO.save(person);
+            userDao.save(user);
 
-            System.out.println("Person::"+person);
+            System.out.println("Person::"+user);
 
-            List<Person> list = personDAO.list();
+            List<User> list = userDao.list();
 
-            for(Person p : list){
-                System.out.println("Person List::"+p);
+            for(User p : list){
+                System.out.println("User List::"+p);
             }
             //close resources
             context.close();

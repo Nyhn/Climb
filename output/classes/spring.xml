@@ -8,7 +8,7 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/db_person?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" />
+        <property name="url" value="jdbc:mysql://localhost:3306/db_climbup?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" />
         <property name="username" value="root" />
         <property name="password" value="0324" />
     </bean>
@@ -19,7 +19,7 @@
             <property name="dataSource" ref="dataSource" />
             <property name="mappingResources">
                 <list>
-                    <value>person.hbm.xml</value>
+                    <value>User.hbm.xml</value>
                 </list>
             </property>
             <property name="hibernateProperties">
@@ -30,7 +30,7 @@
         </bean>
 
 
-    <bean id="personDAO" class="com.oc.dao.PersonDAOImpl">
+    <bean id="UserDAO" class="com.oc.dao.UserDaoImpl">
         <property name="sessionFactory" ref="hibernate5SessionFactory" />
     </bean>
 </beans>

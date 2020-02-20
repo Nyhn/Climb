@@ -8,19 +8,74 @@
     <servlet-class>com.oc.servlets.Form</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>register1</servlet-name>
+    <servlet-class>com.oc.servlets.Register1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logIn</servlet-name>
+    <servlet-class>com.oc.servlets.LogIn</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>homepage</servlet-name>
+    <servlet-class>com.oc.servlets.Homepage</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>register</servlet-name>
     <servlet-class>com.oc.servlets.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>catalog</servlet-name>
+    <servlet-class>com.oc.servlets.Catalog</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>climbingSite</servlet-name>
+    <servlet-class>com.oc.servlets.ClimbingSite</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logInCheck</servlet-name>
+    <servlet-class>com.oc.servlets.LogInCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registerCheck</servlet-name>
+    <servlet-class>com.oc.servlets.RegisterCheck</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>form</servlet-name>
+    <url-pattern>/form</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register1</servlet-name>
+    <url-pattern>/register1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logIn</servlet-name>
+    <url-pattern>/logIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>homepage</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>register</servlet-name>
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
-
+  <servlet-mapping>
+    <servlet-name>catalog</servlet-name>
+    <url-pattern>/catalog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>climbingSite</servlet-name>
+    <url-pattern>/climbingSite</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logInCheck</servlet-name>
+    <url-pattern>/logInCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerCheck</servlet-name>
+    <url-pattern>/registerCheck</url-pattern>
+  </servlet-mapping>
 
 
 </web-app>
