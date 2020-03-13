@@ -4,14 +4,6 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>form</servlet-name>
-    <servlet-class>com.oc.servlets.Form</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>register1</servlet-name>
-    <servlet-class>com.oc.servlets.Register1</servlet-class>
-  </servlet>
-  <servlet>
     <servlet-name>logIn</servlet-name>
     <servlet-class>com.oc.servlets.LogIn</servlet-class>
   </servlet>
@@ -39,15 +31,15 @@
     <servlet-name>registerCheck</servlet-name>
     <servlet-class>com.oc.servlets.RegisterCheck</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>addTopos</servlet-name>
+    <servlet-class>com.oc.servlets.AddTopos</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>toposCheck</servlet-name>
+    <servlet-class>com.oc.servlets.ToposCheck</servlet-class>
+  </servlet>
 
-  <servlet-mapping>
-    <servlet-name>form</servlet-name>
-    <url-pattern>/form</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>register1</servlet-name>
-    <url-pattern>/register1</url-pattern>
-  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>logIn</servlet-name>
     <url-pattern>/logIn</url-pattern>
@@ -75,6 +67,14 @@
   <servlet-mapping>
     <servlet-name>registerCheck</servlet-name>
     <url-pattern>/registerCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addTopos</servlet-name>
+    <url-pattern>/addTopos</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>toposCheck</servlet-name>
+    <url-pattern>/toposCheck</url-pattern>
   </servlet-mapping>
 
 

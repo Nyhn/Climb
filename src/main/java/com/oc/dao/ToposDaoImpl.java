@@ -1,32 +1,31 @@
 package com.oc.dao;
 
-import com.oc.model.User;
+import com.oc.model.Topos;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import java.util.List;
 
-public class UserDaoImpl implements UserDao{
+public class ToposDaoImpl  implements ToposDao{
     private SessionFactory sessionFactory;
-    public void setSessionFactory(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
+    public void setSessionFactory(SessionFactory sessionFactory) { this.sessionFactory = sessionFactory;}
+
 
     @Override
-    public void save(User user){
+    public void save(Topos topos) {
         Session session = this.sessionFactory.openSession();
         Transaction tx = session.beginTransaction();
-        session.persist(user);
+        session.persist(topos);
         tx.commit();
         session.close();
     }
 
     @Override
-    public List<User> list() {
+    public List<Topos> list() {
         Session session = this.sessionFactory.openSession();
-        List<User> userList = session.createQuery("from User ").list();
+        List<Topos> toposList = session.createQuery("FROM  Topos ").list();
         session.close();
-        return userList;
+        return toposList;
     }
 }

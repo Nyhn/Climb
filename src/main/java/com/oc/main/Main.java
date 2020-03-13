@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
         public static void main(String[] args) {
 
-            ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+            ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("WEB-INF/resources/spring.xml");
 
             UserDao userDao = context.getBean(UserDao.class);
 

@@ -1,9 +1,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans.xsd
-    http://www.springframework.org/schema/context
-    http://www.springframework.org/schema/context/spring-context.xsd">
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
@@ -14,23 +19,29 @@
     </bean>
 
     <!-- Hibernate 5 XML SessionFactory Bean definition-->
-     	<bean id="hibernate5SessionFactory"
-            class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
-            <property name="dataSource" ref="dataSource" />
-            <property name="mappingResources">
-                <list>
-                    <value>User.hbm.xml</value>
-                </list>
-            </property>
-            <property name="hibernateProperties">
-                <value>
-                    hibernate.dialect=org.hibernate.dialect.MySQLDialect
-                </value>
-            </property>
-        </bean>
+    <bean id="hibernate5SessionFactory"
+          class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="mappingResources">
+            <list>
+                <value>hbm/User.hbm.xml</value>
+                <value>hbm/Topos.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <value>
+                hibernate.dialect=org.hibernate.dialect.MySQLDialect
+            </value>
+        </property>
+    </bean>
 
 
-    <bean id="UserDAO" class="com.oc.dao.UserDaoImpl">
+    <bean id="UserDao" class="com.oc.dao.UserDaoImpl">
         <property name="sessionFactory" ref="hibernate5SessionFactory" />
     </bean>
+    <bean id="ToposDao" class="com.oc.dao.ToposDaoImpl">
+        <property name="sessionFactory" ref="hibernate5SessionFactory" />
+    </bean>
+    <mvc:resources mapping="/resources/**" location="../resources/"/>
+    <mvc:resources mapping="/theme/**" location="/theme/"/>
 </beans>

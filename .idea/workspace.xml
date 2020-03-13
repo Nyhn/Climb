@@ -8,37 +8,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6704b36-9f70-48c2-9e5f-d326c93074dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/service/ConnectionForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/service/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/ClimbingSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/LogInCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/RegisterCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/catalog.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/climbingSite.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/bootstrap.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/highlight-site.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/logInCheck.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registerCheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/dao/ToposDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/dao/ToposDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/model/Topos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/service/ToposForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/AddTopos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/ToposCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hbm/Topos.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hbm/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/addTopos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/toposCheck.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Climb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Climb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/dao/PersonDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/dao/UserDaoImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/service/ConnectionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/service/RegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/ClimbingSite.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/LogInCheck.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/com/oc/servlets/RegisterCheck.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/classes/spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
@@ -99,41 +99,129 @@
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/resources/style/bootstrap/js/bootstrap.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/resources/style/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/resources/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/catalog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/climbingSite.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/homepage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/include/bootstrap.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/include/footer.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/include/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/include/highlight-site.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/logIn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/logInCheck.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/view/registerCheck.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/Climb/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/dao/PersonDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/dao/UserDaoImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/classes/com/oc/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/service/ConnectionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/service/RegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/ClimbingSite.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/LogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/LogInCheck.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/classes/person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/classes/com/oc/servlets/RegisterCheck.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/classes/spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/dao/PersonDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/dao/PersonDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oc/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oc/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/servlets/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oc/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/servlets/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oc/servlets/RegisterCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oc/servlets/RegisterCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/img/a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/theme/img/a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/theme/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/logIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/logIn.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/byte-buddy-1.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/hibernate-core-5.4.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/hibernate-entitymanager-5.4.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/logback-classic-1.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/logback-core-1.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-aop-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-beans-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-context-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-expression-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-jdbc-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-orm-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/spring-tx-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Climb/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,32 +258,40 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/oc/servlets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\java\com\oc\dao" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\resources" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\java\com\oc\model" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\java\com\oc\service" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\resources" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\resources" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp" />
       <recent name="D:\programing\OpenClassroom\Climb\src\main\java\com\oc\servlets" />
       <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\WEB-INF\view\include" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main" />
-      <recent name="D:\programing\OpenClassroom\Climb\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\theme" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\resources" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\resources\hbm" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp" />
+      <recent name="D:\programing\OpenClassroom\Climb\src\main\webapp\WEB-INF\test" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.303" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.303" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+    <configuration name="ServeurTomcat2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.303" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Climb:war">
           <settings>
             <option name="CONTEXT_PATH" value="/Climb_war" />
+          </settings>
+        </artifact>
+        <artifact name="Climb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Climb_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -348,11 +444,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -371,7 +462,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582025108517</updated>
       <workItem from="1582025113811" duration="19972000" />
-      <workItem from="1582203210532" duration="1011000" />
+      <workItem from="1582203210532" duration="5140000" />
+      <workItem from="1582635627160" duration="8630000" />
+      <workItem from="1582723995035" duration="1697000" />
+      <workItem from="1582821700607" duration="1980000" />
+      <workItem from="1582831262154" duration="375000" />
+      <workItem from="1583132812628" duration="5468000" />
+      <workItem from="1583156256028" duration="15000" />
+      <workItem from="1583156667860" duration="3716000" />
+      <workItem from="1583208889767" duration="2655000" />
+      <workItem from="1583217031590" duration="2431000" />
+      <workItem from="1583420912946" duration="9114000" />
+      <workItem from="1583844800801" duration="3417000" />
+      <workItem from="1584109748038" duration="293000" />
     </task>
     <servers />
   </component>
@@ -379,81 +482,115 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="900" y="198" key="#Assign_Data_Sources" timestamp="1582163505146">
+    <state x="900" y="198" key="#Assign_Data_Sources" timestamp="1583431701120">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state x="900" y="198" key="#Assign_Data_Sources/62.0.3778.1080@62.0.3778.1080" timestamp="1582163505146" />
+    <state x="900" y="198" key="#Assign_Data_Sources/62.0.3778.1080@62.0.3778.1080" timestamp="1583431701120" />
+    <state x="1543" y="198" key="#Project_Structure" timestamp="1583157642393">
+      <screen x="62" y="0" width="3778" height="1080" />
+    </state>
+    <state x="1543" y="198" key="#Project_Structure/62.0.3778.1080@62.0.3778.1080" timestamp="1583157642393" />
     <state x="653" y="198" key="#Tomcat_Server" timestamp="1582036477868">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
     <state x="653" y="198" key="#Tomcat_Server/62.0.3778.1080@62.0.3778.1080" timestamp="1582036477868" />
-    <state x="515" y="195" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582036522765">
+    <state x="515" y="195" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583158144887">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state x="515" y="195" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.3778.1080@62.0.3778.1080" timestamp="1582036522765" />
-    <state x="790" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582126717779">
+    <state x="515" y="195" width="1092" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.3778.1080@62.0.3778.1080" timestamp="1583158144887" />
+    <state x="799" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1582648491167">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state x="790" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.3778.1080@62.0.3778.1080" timestamp="1582126717779" />
-    <state x="841" y="281" key="FileChooserDialogImpl" timestamp="1582036475684">
+    <state x="799" y="224" key="#com.intellij.ide.util.MemberChooser/62.0.3778.1080@62.0.3778.1080" timestamp="1582648491167" />
+    <state x="790" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582637547433">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state x="841" y="281" key="FileChooserDialogImpl/62.0.3778.1080@62.0.3778.1080" timestamp="1582036475684" />
-    <state width="1960" height="292" key="GridCell.Tab.0.bottom" timestamp="1582204226834">
+    <state x="790" y="324" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.3778.1080@62.0.3778.1080" timestamp="1582637547433" />
+    <state x="653" y="228" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583158132080">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1960" height="292" key="GridCell.Tab.0.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1582204226834" />
-    <state width="1960" height="292" key="GridCell.Tab.0.center" timestamp="1582204226834">
+    <state x="653" y="228" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/62.0.3778.1080@62.0.3778.1080" timestamp="1583158132080" />
+    <state x="841" y="281" key="FileChooserDialogImpl" timestamp="1583156265090">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1960" height="292" key="GridCell.Tab.0.center/62.0.3778.1080@62.0.3778.1080" timestamp="1582204226834" />
-    <state width="1960" height="292" key="GridCell.Tab.0.left" timestamp="1582204226834">
+    <state x="445" y="281" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1582229854389" />
+    <state x="841" y="281" key="FileChooserDialogImpl/62.0.3778.1080@62.0.3778.1080" timestamp="1583156265090" />
+    <state width="1249" height="173" key="GridCell.Tab.0.bottom" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.0.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877240" />
+    <state width="1249" height="173" key="GridCell.Tab.0.center" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.0.center/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877240" />
+    <state width="1249" height="173" key="GridCell.Tab.0.left" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.0.left/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877240" />
+    <state width="1249" height="173" key="GridCell.Tab.0.right" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.0.right/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877240" />
+    <state width="1249" height="173" key="GridCell.Tab.1.bottom" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.1.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.1.center" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.1.center/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.1.left" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.1.left/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.1.right" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.1.right/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.2.bottom" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.2.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.2.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.2.center" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.2.center/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.2.center/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.2.left" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.2.left/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.2.left/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state width="1249" height="173" key="GridCell.Tab.2.right" timestamp="1583848172579">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1249" height="173" key="GridCell.Tab.2.right/62.0.1858.1080@62.0.1858.1080" timestamp="1583848172579" />
+    <state width="1084" height="173" key="GridCell.Tab.2.right/62.0.3778.1080@62.0.3778.1080" timestamp="1583425877211" />
+    <state x="1331" y="118" key="SettingsEditor" timestamp="1583425148923">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1960" height="292" key="GridCell.Tab.0.left/62.0.3778.1080@62.0.3778.1080" timestamp="1582204226834" />
-    <state width="1960" height="292" key="GridCell.Tab.0.right" timestamp="1582204226834">
+    <state x="1331" y="118" key="SettingsEditor/62.0.3778.1080@62.0.3778.1080" timestamp="1583425148923" />
+    <state x="2098" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1583844805807">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1960" height="292" key="GridCell.Tab.0.right/62.0.3778.1080@62.0.3778.1080" timestamp="1582204226834" />
-    <state width="1351" height="215" key="GridCell.Tab.1.bottom" timestamp="1582204219262">
+    <state x="2098" y="272" key="com.intellij.ide.util.TipDialog/62.0.3778.1080@62.0.3778.1080" timestamp="1583844805807" />
+    <state x="1640" y="0" width="1162" height="1087" key="dock-window-1" timestamp="1583132887155">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1351" height="215" key="GridCell.Tab.1.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state width="1351" height="215" key="GridCell.Tab.1.center" timestamp="1582204219262">
+    <state x="765" y="0" width="1162" height="1087" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1582831272747" />
+    <state x="1640" y="0" width="1162" height="1087" key="dock-window-1/62.0.3778.1080@62.0.3778.1080" timestamp="1583132887155" />
+    <state x="741" y="223" key="spring file set editor" timestamp="1583423372668">
       <screen x="62" y="0" width="3778" height="1080" />
     </state>
-    <state width="1351" height="215" key="GridCell.Tab.1.center/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state width="1351" height="215" key="GridCell.Tab.1.left" timestamp="1582204219262">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.1.left/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state width="1351" height="215" key="GridCell.Tab.1.right" timestamp="1582204219262">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.1.right/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state width="1351" height="215" key="GridCell.Tab.2.bottom" timestamp="1582204219262">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.2.bottom/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state width="1351" height="215" key="GridCell.Tab.2.center" timestamp="1582204219261">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.2.center/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219261" />
-    <state width="1351" height="215" key="GridCell.Tab.2.left" timestamp="1582204219261">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.2.left/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219261" />
-    <state width="1351" height="215" key="GridCell.Tab.2.right" timestamp="1582204219262">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state width="1351" height="215" key="GridCell.Tab.2.right/62.0.3778.1080@62.0.3778.1080" timestamp="1582204219262" />
-    <state x="1238" y="6" width="1238" height="739" key="dock-window-1" timestamp="1582161414731">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state x="1238" y="6" width="1238" height="739" key="dock-window-1/62.0.3778.1080@62.0.3778.1080" timestamp="1582161414731" />
-    <state x="741" y="223" key="spring file set editor" timestamp="1582036352104">
-      <screen x="62" y="0" width="3778" height="1080" />
-    </state>
-    <state x="741" y="223" key="spring file set editor/62.0.3778.1080@62.0.3778.1080" timestamp="1582036352104" />
+    <state x="741" y="223" key="spring file set editor/62.0.3778.1080@62.0.3778.1080" timestamp="1583423372668" />
   </component>
 </project>

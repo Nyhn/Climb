@@ -3,13 +3,16 @@ package com.oc.model;
 import javax.persistence.*;
 
 import java.sql.Date;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
 
 @Entity
-@Table(name ="user")
+@Table
 public class User {
     /* id */
     @Id
-    @Column(name = "id")
+    @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
@@ -28,18 +31,18 @@ public class User {
     private String mail;
     private int phone;
 
-    /*public User(int id, String pseudo, String password, String name, String firstname, boolean sex, String address, int zip, String mail, int phone) {
-        this.id = id;
-        this.pseudo = pseudo;
-        this.password = password;
-        this.name = name;
-        this.firstname = firstname;
-        this.sex = sex;
-        this.address = address;
-        this.zip = zip;
-        this.mail = mail;
-        this.phone = phone;
-    }*/
+
+    @OneToMany(mappedBy ="user")
+    private Set<Topos> toposCollection;
+
+    public Set<Topos> getToposCollection() {
+        return toposCollection;
+    }
+
+    public void setToposCollection(Set<Topos> toposCollection) {
+        this.toposCollection = toposCollection;
+    }
+
 
     public User() {
     }
@@ -126,4 +129,5 @@ public class User {
     public void setId(int id) {
         this.id = id;
     }
+
 }
